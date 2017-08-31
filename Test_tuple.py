@@ -19,6 +19,22 @@ mix_tuple[3][0] = 'a'
 
 print("mix_tuple after=====" + str(mix_tuple))
 
+'''
+tuple list的关系：
+tuple比List速度快，如果只是用作遍历，可以选tuple
+两者可以互相转换
+'''
+abcd_tuple=('a','b','c','d','e','f')
+
+print(abcd_tuple[1])
+print(abcd_tuple[-2])
+print(abcd_tuple[1:])
+
+
+
+
+
+
 
 
 
