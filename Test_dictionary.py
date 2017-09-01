@@ -20,12 +20,12 @@ mixed_dic = {'xx':123, 666:'jim'}
 
 # print(mixed_dic)
 
-phone_book['lily']=123456
+phone_book['lily'] = 123456
 
 print(phone_book)
 
-#不能通过下表来访问
-#print(phone_book[2])
+# 不能通过下表来访问
+# print(phone_book[2])
 
 del phone_book['xx']
 
