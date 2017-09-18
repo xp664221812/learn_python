@@ -21,5 +21,7 @@ def update_my_infos():
     # 获取并更新群列表: {UserName: UserInstance}
     my.groups = {group["UserName"]: group for group in my.get_chatrooms(update=True)}
     
+    print(123456)
+    
     return
 update_my_infos()
